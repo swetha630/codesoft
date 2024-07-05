@@ -1,0 +1,17 @@
+print("==========TO DO LIST==========")
+#creat a dictionary
+dict={"listen classes":"not done","practise":"not done","Exercise":"not done"}
+#set the task is done
+dict['listen classes']='Done'
+dict['practise']='Done'
+dict['Exercise']='Done'
+#add tasks
+dict.update([('Exam','not done')])
+dict['Exam']='Done'
+print(dict)
+print("WOWWW! SUCCESSFULLY COMPLETED ALL THE TASKS!!!!!")
+#clear the dictionary after completing all the TASKS
+dict.clear()
+print(dict)
+print("===RESTART YOUR EXITING JOURNEY===")
+print("###BY ADDING NEW TAKS###")
